@@ -17,7 +17,7 @@
 
 #include "cl.hpp"
 
-#include "../../Cpp_common/util.hpp" // utility library
+#include "util.hpp" // utility library
 
 #include <vector>
 #include <cstdio>
@@ -32,7 +32,7 @@
 #define DEVICE CL_DEVICE_TYPE_DEFAULT
 #endif
 
-#include </home/aqzhang/Downloads/Exercises-Solutions-master/Exercises/Cpp_common/err_code.h>
+#include <err_code.h>
 
 //------------------------------------------------------------------------------
 

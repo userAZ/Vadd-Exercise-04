@@ -3,7 +3,7 @@ ifndef CPPC
 	CPPC=g++
 endif
 
-CPP_COMMON = ../../Cpp_common
+CPP_COMMON = .
 
 CCFLAGS=
 
