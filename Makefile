@@ -29,9 +29,9 @@ endif
 
 CCFLAGS += -D DEVICE=$(DEVICE)
 
-vadd: vadd.cpp
+test: test.cpp
 	$(CPPC) $^ $(INC) $(CCFLAGS) $(LIBS) -o $@
 
 
 clean:
-	rm -f vadd
+	rm -f test
